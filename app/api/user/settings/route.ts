@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs/server'
 import { createClerkSupabaseClient } from '@/lib/supabase'
 
+export const dynamic = 'force-dynamic'
+
 // GET - Buscar configurações do usuário
 export async function GET(request: NextRequest) {
   try {
@@ -111,4 +113,5 @@ export async function PUT(request: NextRequest) {
     return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }
+
 
