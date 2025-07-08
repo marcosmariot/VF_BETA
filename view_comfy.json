@@ -1,0 +1,12 @@
+{
+  "name": "Vertical Fashion Workflow",
+  "description": "Workflow para geração de imagens de moda vertical",
+  "version": "1.0.0",
+  "nodes": {},
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
+
