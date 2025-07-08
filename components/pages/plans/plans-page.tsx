@@ -85,7 +85,7 @@ export default function PlansPage() {
 
     return (
         <div className="flex flex-col h-full">
-            <Header title="Planos" description="Escolha o plano ideal para suas necessidades de criação de moda." />
+            <Header title="Planos" />
             
             <div className="flex-1 overflow-auto p-6">
                 {/* Introdução */}

@@ -31,7 +31,7 @@ export default function ContactPage() {
 
     return (
         <div className="flex flex-col h-full">
-            <Header title="Contato" description="Entre em contato conosco. Estamos aqui para ajudar!" />
+            <Header title="Contato" />
             
             <div className="flex-1 overflow-auto p-6">
                 <div className="max-w-6xl mx-auto">

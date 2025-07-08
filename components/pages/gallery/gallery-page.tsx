@@ -55,7 +55,7 @@ export default function GalleryPage() {
 
     return (
         <div className="flex flex-col h-full">
-            <Header title="Galeria" description="Gerencie e baixe suas criações de moda organizadas por mês." />
+            <Header title="Galeria" />
             
             <div className="flex flex-1 overflow-hidden p-4 gap-4">
                 {/* Sidebar com meses */}

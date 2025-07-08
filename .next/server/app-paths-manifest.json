@@ -1,17 +1,17 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/comfy/route": "app/api/comfy/route.js",
-  "/api/comfyui/route": "app/api/comfyui/route.js",
   "/api/files/route": "app/api/files/route.js",
-  "/api/gallery/route": "app/api/gallery/route.js",
   "/api/playground/route": "app/api/playground/route.js",
+  "/api/comfyui/route": "app/api/comfyui/route.js",
+  "/api/gallery/route": "app/api/gallery/route.js",
   "/api/user/history/route": "app/api/user/history/route.js",
   "/api/user/workflows/[id]/route": "app/api/user/workflows/[id]/route.js",
   "/api/user/workflows/route": "app/api/user/workflows/route.js",
   "/api/viewcomfy/route": "app/api/viewcomfy/route.js",
   "/como-funciona/page": "app/como-funciona/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/login/[[...login]]/page": "app/login/[[...login]]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/api/user/settings/route": "app/api/user/settings/route.js"
 }

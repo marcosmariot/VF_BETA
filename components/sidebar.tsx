@@ -1,4 +1,4 @@
-import { Terminal, LifeBuoy, FileJson, Cloud, Image, Folder, BookOpen, CreditCard, Mail } from "lucide-react"
+import { SquareTerminal, LifeBuoy, FileJson, Cloud, Image, Folder, BookOpen, CreditCard, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { TooltipButton } from "@/components/ui/tooltip-button"
 import Link from "next/link";
@@ -55,7 +55,7 @@ export function Sidebar({ currentTab, onTabChange, deployWindow, onDeployWindow 
             <nav className="flex-grow space-y-2 p-2">
                 {viewMode ? (
                     <SidebarButton
-                        icon={<Terminal className="size-5" />}
+                        icon={<SquareTerminal className="size-5" />}
                         label="Playground"
                         isActive={currentTab === TabValue.Playground}
                         onClick={() => onTabChange(TabValue.Playground)}
@@ -65,7 +65,7 @@ export function Sidebar({ currentTab, onTabChange, deployWindow, onDeployWindow 
                     <>
                         {/* <PlaygroundButton currentTab={currentTab} onTabChange={onTabChange} /> */}
                         <SidebarButton
-                            icon={<Terminal className="size-5" />}
+                            icon={<SquareTerminal className="size-5" />}
                             label="Ai Studio"
                             isActive={currentTab === TabValue.AiStudio}
                             onClick={() => onTabChange(TabValue.AiStudio)}
@@ -113,5 +113,3 @@ export function Sidebar({ currentTab, onTabChange, deployWindow, onDeployWindow 
         </aside>
     )
 }
-
-

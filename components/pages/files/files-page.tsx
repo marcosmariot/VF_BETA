@@ -69,7 +69,7 @@ export default function FilesPage() {
 
     return (
         <div className="flex flex-col h-full">
-            <Header title="Arquivos" description="Gerencie seus arquivos enviados para usar nos workflows." />
+            <Header title="Arquivos" />
             
             <div className="flex-1 overflow-hidden p-4">
                 {/* Área de upload */}

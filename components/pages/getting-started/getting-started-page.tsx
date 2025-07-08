@@ -88,7 +88,7 @@ export default function GettingStartedPage() {
 
     return (
         <div className="flex flex-col h-full">
-            <Header title="Começando" description="Tutoriais e guias para dominar a plataforma Vertical Fashion." />
+            <Header title="Começando" />
             
             <div className="flex-1 overflow-hidden p-4">
                 {/* Estatísticas */}
